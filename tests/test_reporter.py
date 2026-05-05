@@ -13,7 +13,7 @@ def echo_llm(prompt: str) -> str:
 
 
 def _make_summary():
-   """Create a simple summary for reporter tests."""
+    """Create a simple summary for reporter tests."""
     template = PromptTemplate("Say {{ word }}")
     runner = EvalRunner(template=template, judge=ExactMatch(), llm_fn=echo_llm)
     cases = [

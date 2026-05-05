@@ -59,7 +59,7 @@ class TestPartial:
         assert partial.render(b="Y") == "X and Y"
 
     def test_preserves_name(self):
-        tpl = PromptTemplate( {{ x }}", name="my-tpl")
+        tpl = PromptTemplate("{{ x }}", name="my-tpl")
         partial = tpl.partial(x="done")
         assert partial.name == "my-tpl"
 

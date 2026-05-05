@@ -11,7 +11,7 @@ def echo_llm(prompt: str) -> str:
 
 
 def reverse_llm(prompt: str) -> str:
-   """Dummy LLM that reverses the prompt."""
+    """Dummy LLM that reverses the prompt."""
     return prompt[::-1]
 
 
