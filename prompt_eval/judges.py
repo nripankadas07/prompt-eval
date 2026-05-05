@@ -58,9 +58,7 @@ class LLMJudge(Judge):
     def __init__(self, llm_fn: Callable[[str], str]):
         self.llm_fn = llm_fn
     def __call__(self, output, expected):
-        prompt = f"Score this output 0-1.
-Expected: {expected}
-Output: {output}"
+        prompt = f"Score this output 0-1.\nExpected: {expected}\nOutput: {output}"
         s = self.llm_fn(prompt).strip()
         try:
             v = float(s.split()[0])
