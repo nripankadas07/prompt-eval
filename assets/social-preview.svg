@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">prompt-eval</title>
+  <desc id="desc">Prompt regression tests that run in CI</desc>
+  <rect width="1280" height="640" fill="#0b0f14"/>
+  <rect x="72" y="72" width="1136" height="496" rx="18" fill="#111821" stroke="#2b3642"/>
+  <text x="112" y="170" fill="#fda4af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="34">No-Dependency AI + Systems Lab</text>
+  <text x="112" y="278" fill="#f4f7fb" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="76" font-weight="700">prompt-eval</text>
+  <text x="112" y="360" fill="#b8c4d2" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="34">Prompt regression tests that run in CI</text>
+  <g transform="translate(112 436)" fill="none" stroke="#526273" stroke-width="2">
+    <path d="M0 0h1056"/>
+    <path d="M0 48h1056"/>
+    <path d="M0 96h1056"/>
+  </g>
+  <text x="112" y="528" fill="#d7dde6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28">readable code • runnable demo • tests • edge cases • honest limits</text>
+</svg>

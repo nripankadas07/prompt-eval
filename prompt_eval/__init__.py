@@ -1,5 +1,4 @@
-"""
-prompt-eval â Lightweight LLM prompt evaluation framework.
+"""prompt-eval: Lightweight LLM prompt evaluation framework.
 
 Evaluate, compare, and score prompts against ground-truth datasets
 using pluggable judges (exact match, fuzzy, semantic, LLM-as-judge).
